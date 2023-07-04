@@ -1,0 +1,374 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .5)), url(../imgs/bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, .4) !important;
+    z-index: 333;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: red !important;
+    transition: all 1s;
+}
+
+.hello {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+}
+
+.its-long {
+    color: rgba(255, 255, 255, 0.75) !important
+}
+
+.typing::after {
+    content: "I'M A Graphic Designer.|";
+    animation: typing 5s infinite linear;
+}
+
+@keyframes typing {
+    0% {
+        content: "I'M";
+    }
+
+    5% {
+        content: "I'M A";
+    }
+
+    10% {
+        content: "I'M A Gra";
+    }
+
+    15% {
+        content: "I'M A Graph";
+    }
+
+    20% {
+        content: "I'M A Graphic";
+    }
+
+    25% {
+        content: "I'M A Graphic D";
+    }
+
+    30% {
+        content: "I'M A Graphi De";
+    }
+
+    35% {
+        content: "I'M A Graphic Desi";
+    }
+
+    40% {
+        content: "I'M A Graphic Design";
+    }
+
+    45% {
+        content: "I'M A Graphic Designe";
+    }
+
+    50% {
+        content: "I'M A Graphic Designer.|";
+    }
+
+    55% {
+        content: "I'M A Graphic Des";
+    }
+
+    60% {
+        content: "I'M A Graphic De";
+    }
+
+    65% {
+        content: "I'M A Graphic D ";
+    }
+
+    70% {
+        content: "I'M A Graphic";
+    }
+
+    75% {
+        content: "I'M A Graphi";
+    }
+
+    80% {
+        content: "I'M A Graph";
+    }
+
+    85% {
+        content: "I'M A Grap";
+    }
+
+    90% {
+        content: "I'M A Gra";
+    }
+
+    95% {
+        content: "I'M A Gr";
+    }
+
+    100% {
+        content: "I'M G";
+    }
+
+}
+
+.home-content {
+    bottom: 45%;
+}
+
+.icons {
+    top: 60%;
+}
+
+
+.about .imge img {
+    width: 430px;
+}
+
+.caption p {
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+    font-weight: 400;
+}
+
+.download {
+    background-color: black !important;
+    color: white;
+}
+
+.download:hover {
+    background-color: white !important;
+    color: black;
+}
+
+.services {
+    background-color: #f7f7f7;
+}
+
+.services h1 {
+    font-weight: 900 !important;
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif
+}
+
+.services .icon {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #f4f4f4;
+    transition: all 0.5s;
+    position: relative;
+    left: 40%;
+    margin: 20px 0px;
+
+
+}
+
+.services .card:hover .icon {
+    background-color: black;
+    color: white;
+}
+
+.portfolio .port {
+    font-weight: 900 !important;
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif
+}
+
+.testimonials {
+    background-color: #F7F7F7;
+}
+
+.testimonials h1 {
+    font-weight: 900 !important;
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif
+}
+
+.testimonials .content img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15%;
+}
+
+
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: black !important;
+
+}
+
+.count h3 {
+    font-weight: 900;
+}
+
+.ourteam {
+    background-color: #f4f4f4;
+}
+
+.ourteam h1,
+.contactus h1 {
+    font-weight: 900 !important;
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif
+}
+
+.contactus .icon {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #f4f4f4;
+    transition: all 0.5s;
+    position: relative;
+    left: 40%;
+    margin: 20px 0px;
+
+}
+
+.contactus .icon:hover {
+    background-color: black;
+    color: white;
+}
+
+.input .bg,
+.form-control {
+    background-color: #f4f4f4 !important;
+}
+
+.btn-light {
+    background-color: black !important;
+    color: white !important;
+}
+
+.btn-light:hover {
+    background-color: white !important;
+    color: black !important;
+    transition: all 1s;
+}
+
+.foter {
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.foter p {
+    color: #748182 !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link {
+    background-color: transparent !important;
+    color: #1c1c1c !important;
+    font-weight: 800;
+}
+
+/* .card .layer{
+    position: relative ;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-color: rgba(255,255,255,0.95);
+    opacity: 0;
+    transform: rotateY(180deg);
+    transition: all 1s;
+}
+.card .card-img-top:hover .layer {
+opacity: 1;
+transform: rotateY(0deg);
+}
+.card-img-top{
+    overflow: hidden;
+    position: relative;
+    transition: all 1s;
+}
+.card-img-top:hover{
+    transform: scale(1.2);
+    transition: 1s;
+} */
+
+
+.layer2 {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    transform: rotateY(180deg);
+    transition: all 1s;
+}
+
+.img-area:hover .layer2 {
+    opacity: 1;
+    transform: rotateY(0deg);
+}
+
+.img-area {
+    overflow: hidden;
+    position: relative;
+    transition: all 1s;
+}
+
+.img-area:hover img {
+    transform: scale(1.2);
+    transition: 1s;
+
+}
+
+.img-area.img {
+    transition: 1s;
+}
+
+.ourteam h1 {
+    font-weight: 900 !important;
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif
+}
+
+.foter .icons :hover {
+    color: crimson !important;
+    position: relative;
+    transition: all 0.5s;
+
+}
+
+.foter .icons {}
+
+
+.portfolio .content .layer-1 {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio .content:hover .layer-1 {
+
+    top: 0%;
+    transition: all 1s;
+}
